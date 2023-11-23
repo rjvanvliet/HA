@@ -1,5 +1,5 @@
 blueprint:
-  name: ZHA - Ecodim, 4 Channel remote
+  name: ZHA - Ecodim, 1 Channel remote
   description: 'Control any light using the Ecodim remote on ZHA'
   domain: automation
   input:
@@ -10,7 +10,7 @@ blueprint:
         device:
           integration: zha
           manufacturer: EcoDim
-          model: ED-10014
+          model: ED-10010
     light_1:
       name: Light row 1
       description: The lights that will be controlled with row 1
