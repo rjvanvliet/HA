@@ -36,7 +36,7 @@ blueprint:
           min: 100
           max: 2000
           unit_of_measurement: 'milliseconds'
-  source_url: https://gist.github.com/ronaldt80/85b9119a8f36bfca19a7011a12a9d2da
+  source_url: https://github.com/rjvanvliet/HA/blob/main/ecodim-remote-1channel.yaml
 mode: restart
 max_exceeded: silent
 trigger:
